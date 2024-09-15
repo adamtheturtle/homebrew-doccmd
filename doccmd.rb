@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "CLI for Vuforia Web Services"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/e9/eb/6203740ff1ddb2c051f7211cba42c4eeb34be65bb5f09862960455d422de/doccmd-2024.9.14.4.tar.gz"
-  sha256 "b4a36db39c0be12bb8428f2490450cc48fb0bce9eb0f8d83f5a6380bdaa115c4"
+  url "https://files.pythonhosted.org/packages/42/08/381200b5861528fc89a8bb0bfa5c0515aaba015ade9e2be4cf09d37c7cbf/doccmd-2024.9.15.tar.gz"
+  sha256 "cdaecb7e685d44899479916e0424c86655b68ce1269a31b32c6ae80083e0aa37"
 
   depends_on "python3"
 
@@ -34,8 +34,8 @@ class Doccmd < Formula
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/06/66/195b22352102490b3061ca9c712c4983397611cbc6de6ce3772fcd1c9589/sybil_extras-2024.9.14.4.tar.gz"
-    sha256 "16efaf095384235a777ceed86463ecf4cc3ddf941529fbe4866814caecde83a9"
+    url "https://files.pythonhosted.org/packages/69/12/063f3ca6726edfeea6dfe311f61ada6650f03be09ef9f7888ce7f491945b/sybil_extras-2024.9.15.tar.gz"
+    sha256 "fcab7d21f17b1b7080d8202673b58607be16886354f52ed34f03650855f6aff6"
   end
 
   def install
