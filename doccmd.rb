@@ -23,19 +23,19 @@ class Doccmd < Formula
     sha256 "786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199"
   end
 
-  resource "subprocess-tee" do
-    url "https://files.pythonhosted.org/packages/d7/22/991efbf35bc811dfe7edcd749253f0931d2d4838cf55176132633e1c82a7/subprocess_tee-0.4.2.tar.gz"
-    sha256 "91b2b4da3aae9a7088d84acaf2ea0abee3f4fd9c0d2eae69a9b9122a71476590"
-  end
-
   resource "sybil" do
-    url "https://files.pythonhosted.org/packages/45/a9/d04a7ca60f6cac59251a1b054b47f9d0113d0c1b4b1188b797f1d92b3d7e/sybil-7.0.0.tar.gz"
-    sha256 "0553c927fd5b79893aa19e3498e511f1942cd0c33c007fea0a96bbc412c1261c"
+    url "https://files.pythonhosted.org/packages/36/e9/717ec58fa68db4707d9c8f1d7e20aa6665de6fc294c5c4956ad703fd9e25/sybil-7.1.1.tar.gz"
+    sha256 "afcd9faad896bdd7907eaa6df6cff1d63247f740a14f27c297cc08be135b16e2"
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/c3/c8/396bc9d15050e9ee4d8dbfec89cbae7e4140a6eac3cc9ad5ec28f229473f/sybil_extras-2024.9.16.tar.gz"
-    sha256 "c5f317d05478412df2330d940350225ceee4284501bdcc58059b3cc5827d7cd4"
+    url "https://files.pythonhosted.org/packages/1d/d0/54199e457168cbe009dba548607b7d00cbf3405362a1e46f341a6c72e1aa/sybil_extras-2024.9.18.1.tar.gz"
+    sha256 "0c430db83ba901e31043f7fd3fc8145f8d447919dc12d471ed8bb52b1faad335"
+  end
+
+  resource "tee-subprocess" do
+    url "https://files.pythonhosted.org/packages/a2/ec/1a80f3cb0f878fb6cb713ad4d39decb9d62adc939e2ad7f8dc13c158e315/tee_subprocess-1.0.0.post0.tar.gz"
+    sha256 "b0358226a67f5a1e93c2f9d8e79f2ebcc325451a20e294e44537f7620b70d0f7"
   end
 
   def install
