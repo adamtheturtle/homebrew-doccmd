@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "CLI for Vuforia Web Services"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/87/89/a6d09c57e9b09b013d2783704fc86cf8024b68ec0a14385774efbbf1a222/doccmd-2024.9.16.tar.gz"
-  sha256 "ee404ee36994665626bf7ee02f6e4ca439e8848eb63412ff95a31418b59cda5c"
+  url "https://files.pythonhosted.org/packages/71/06/925e9ea14ffd92b45116e1b1f1e93141c30ad052fe51a90d3b76d6a07ac4/doccmd-2024.9.19.tar.gz"
+  sha256 "2cffd6dcb69a9f118f373a5b0213c89a3fb66007f747590d437d77e37281bd0e"
 
   depends_on "python3"
 
