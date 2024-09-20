@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "CLI for Vuforia Web Services"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/a7/24/ba407ac99dbffbeef40d177c60f8fa7d4f84ba3d788a8713a2b1a5a49f3a/doccmd-2024.9.19.3.tar.gz"
-  sha256 "2f45e027e92b20726c8faa4f7c24a0c385b823bf6dcb8e83fc5674561e9efe09"
+  url "https://files.pythonhosted.org/packages/08/a1/d83d5f56bff4840626c3b9deb698b65f52a7024bad00208de6bd2fcc26fb/doccmd-2024.9.20.tar.gz"
+  sha256 "bf71264dfedc9293a393e554a7598d5e4a5b9d129e657da335b90ca16fc24a79"
 
   depends_on "python3"
 
@@ -24,18 +24,18 @@ class Doccmd < Formula
   end
 
   resource "sybil" do
-    url "https://files.pythonhosted.org/packages/36/e9/717ec58fa68db4707d9c8f1d7e20aa6665de6fc294c5c4956ad703fd9e25/sybil-7.1.1.tar.gz"
-    sha256 "afcd9faad896bdd7907eaa6df6cff1d63247f740a14f27c297cc08be135b16e2"
+    url "https://files.pythonhosted.org/packages/1e/9e/a5bbc15683cf8a8d84d128363d707aa88cfa6a5e3bbb763fbd94e4afe41c/sybil-8.0.0.tar.gz"
+    sha256 "f175f0c381fe87860089ca0696093b3969d9e8c424da2226767d8d2451fe3e07"
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/1d/d0/54199e457168cbe009dba548607b7d00cbf3405362a1e46f341a6c72e1aa/sybil_extras-2024.9.18.1.tar.gz"
-    sha256 "0c430db83ba901e31043f7fd3fc8145f8d447919dc12d471ed8bb52b1faad335"
+    url "https://files.pythonhosted.org/packages/a5/77/efda4e684c7ee97225ca5f44a6111c7a2dd5e76927274a34d5edf786df7f/sybil_extras-2024.9.20.tar.gz"
+    sha256 "b2c98247b94c44f7cb0920126c61a73b7215793d90f5413d96cb3f124e86b974"
   end
 
   resource "tee-subprocess" do
-    url "https://files.pythonhosted.org/packages/a2/ec/1a80f3cb0f878fb6cb713ad4d39decb9d62adc939e2ad7f8dc13c158e315/tee_subprocess-1.0.0.post0.tar.gz"
-    sha256 "b0358226a67f5a1e93c2f9d8e79f2ebcc325451a20e294e44537f7620b70d0f7"
+    url "https://files.pythonhosted.org/packages/07/21/ae9a97532daf4fc7bbe1059d6ee8b230dd43e8d3e7e3e835315a1b3e622f/tee_subprocess-1.1.0.tar.gz"
+    sha256 "2ee099876bfcd3cdbb2768d122fa2b5275175586e533a3479b93dbc4122397dc"
   end
 
   def install
