@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "CLI for Vuforia Web Services"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/ac/54/06fbb1332935d6960a85a97e1a610dc66ac87273699511f11fb46b368cea/doccmd-2024.9.21.tar.gz"
-  sha256 "f10a18b694c8259454337222e8441807dc5542489689a64e25016593e6334336"
+  url "https://files.pythonhosted.org/packages/2e/da/5d9a0e955c701372fcd13f963900fdd320ef8464987bfd449b05d39e0470/doccmd-2024.9.23.tar.gz"
+  sha256 "6eea0a73cb0d87e7dc0c5b7911930c9baea09c32460ee517a24fe5af4f7a88f1"
 
   depends_on "python3"
 
@@ -29,8 +29,8 @@ class Doccmd < Formula
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/a5/77/efda4e684c7ee97225ca5f44a6111c7a2dd5e76927274a34d5edf786df7f/sybil_extras-2024.9.20.tar.gz"
-    sha256 "b2c98247b94c44f7cb0920126c61a73b7215793d90f5413d96cb3f124e86b974"
+    url "https://files.pythonhosted.org/packages/84/11/8ac80cfa0dbcc877fd5e2367ad48f67082dd29e4b2ca579e6d90a92bdaa8/sybil_extras-2024.9.22.1.tar.gz"
+    sha256 "24ec45eb5901e199102f473e8725e58946b46e60e488c81623d73905be26d645"
   end
 
   resource "tee-subprocess" do
