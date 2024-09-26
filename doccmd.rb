@@ -3,14 +3,14 @@ class Doccmd < Formula
 
   desc "CLI for Vuforia Web Services"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/5f/36/6df2acf8be0311708a0589b14c01b765bd105682efeb0b12f3c9f3909895/doccmd-2024.9.24.tar.gz"
-  sha256 "513d6a202f68d4d34f006508d0cf7a42d4f182beadbd8d79412e178f63fff311"
+  url "https://files.pythonhosted.org/packages/b9/94/4b68c39d902da9809fa6740e54bf71a5fba52731c98a83b964ca3557d2a9/doccmd-2024.9.26.tar.gz"
+  sha256 "26e3a6521e95de9ddc4056e8d68fb3add82bd2f6354e2ff85add67dcf912d4ae"
 
   depends_on "python3"
 
   resource "beartype" do
-    url "https://files.pythonhosted.org/packages/96/15/4e623478a9628ad4cee2391f19aba0b16c1dd6fedcb2a399f0928097b597/beartype-0.18.5.tar.gz"
-    sha256 "264ddc2f1da9ec94ff639141fbe33d22e12a9f75aa863b83b7046ffff1381927"
+    url "https://files.pythonhosted.org/packages/6f/e1/00515b97afa3993b4a314e4bc168fbde0917fd5845435cb6f16a19770746/beartype-0.19.0.tar.gz"
+    sha256 "de42dfc1ba5c3710fde6c3002e3bd2cad236ed4d2aabe876345ab0b4234a6573"
   end
 
   resource "click" do
