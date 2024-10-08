@@ -1,10 +1,10 @@
 class Doccmd < Formula
   include Language::Python::Virtualenv
 
-  desc "CLI for Vuforia Web Services"
+  desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/13/92/301e18c000925b90273fa2887c7b96a2cc6b6cabe76a96dd1b76a96a9ce8/doccmd-2024.9.27.tar.gz"
-  sha256 "365ff0ed235be16c03ae120960e0eb641064ab82eb138e5c89eed76e9c7d08dc"
+  url "https://files.pythonhosted.org/packages/b6/21/dc1b292503eb018cb36a29e643573dd10e3427a93b4ee8bcb6bbd0222bf3/doccmd-2024.10.8.3.tar.gz"
+  sha256 "6d707a28a04f3e4e0a3ddb7b6765e9f97f299691f9fe2eb4229ef08ea263355f"
 
   depends_on "python3"
 
