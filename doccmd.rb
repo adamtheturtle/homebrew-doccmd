@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/53/3e/102202ad5f2ef1d2d75209392bf55b24437757950d5c1cf2391ad170fb35/doccmd-2024.10.8.11.tar.gz"
-  sha256 "bd40d84ffd392740dc5549f8ffbf30e509f7a76bede2500187e0bf880c6a264a"
+  url "https://files.pythonhosted.org/packages/cc/c3/915682f1ad450271a2a8e15e8be34756f35890d9d9b56d01b07676aed49d/doccmd-2024.10.11.tar.gz"
+  sha256 "5757857418600760bd859b3bd8485bcd06eb11576aead5dd2e53de65c2ade1fd"
 
   depends_on "python3"
 
@@ -29,8 +29,8 @@ class Doccmd < Formula
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/84/11/8ac80cfa0dbcc877fd5e2367ad48f67082dd29e4b2ca579e6d90a92bdaa8/sybil_extras-2024.9.22.1.tar.gz"
-    sha256 "24ec45eb5901e199102f473e8725e58946b46e60e488c81623d73905be26d645"
+    url "https://files.pythonhosted.org/packages/fe/fe/ae4c5250a8f467e9f568b48c782802fb57def981e0d08d7334aca3038623/sybil_extras-2024.10.11.tar.gz"
+    sha256 "c318fb673b8caf711487074a5333be94e2952eb7160bccbd2a2b49c74bb4ec7a"
   end
 
   resource "tee-subprocess" do
