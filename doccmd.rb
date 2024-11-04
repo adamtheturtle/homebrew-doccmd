@@ -24,8 +24,8 @@ class Doccmd < Formula
   end
 
   resource "sybil" do
-    url "https://files.pythonhosted.org/packages/1e/9e/a5bbc15683cf8a8d84d128363d707aa88cfa6a5e3bbb763fbd94e4afe41c/sybil-8.0.0.tar.gz"
-    sha256 "f175f0c381fe87860089ca0696093b3969d9e8c424da2226767d8d2451fe3e07"
+    url "https://files.pythonhosted.org/packages/4b/b0/b33ca24705e0344ba2e0c248d8d0a662704efe4441d68c707dd2f9845499/sybil-8.0.1.tar.gz"
+    sha256 "8696f007005eee4bc79be7af6dd1739397f34122517d38b7a21c088f716f7a23"
   end
 
   resource "sybil-extras" do
