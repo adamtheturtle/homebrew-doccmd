@@ -14,8 +14,8 @@ class Doccmd < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/96/d3/f04c7bfcf5c1862a2a5b845c6b2b360488cf47af55dfa79c98f6a6bf98b5/click-8.1.7.tar.gz"
-    sha256 "ca9853ad459e787e2192211578cc907e7594e294c7ccc834310722b41b9ca6de"
+    url "https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz"
+    sha256 "ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a"
   end
 
   resource "Pygments" do
@@ -29,8 +29,8 @@ class Doccmd < Formula
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/b2/f1/c6b687e62b8deceeb47c47a9730fc40d794058e98fd43d4bbf47ca2e356b/sybil_extras-2024.10.18.tar.gz"
-    sha256 "1d3fa585c852958c27a8cafadf50d75c8abbf6793be0c4c1d06aff57bb2c59ae"
+    url "https://files.pythonhosted.org/packages/c4/6f/f1dea018154311a3c898c5508d6c1b500287b28e6cec608cdf5c6b06a4e9/sybil_extras-2024.12.26.tar.gz"
+    sha256 "2fe858c1dac043d27d1d8d830e7fb6266f18dd0dbd859b71b82effb865dbaa4e"
   end
 
   def install
