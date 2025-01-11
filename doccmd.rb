@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/28/9f/c9d97a4bb8d3193d6fd87a527c31d2155f70a6dbb579c84227d75524680f/doccmd-2024.11.14.tar.gz"
-  sha256 "4a2262c2f6f9834b3e05de2498c48b060eae0fa9b7ae89d9a9ed28cd005e031e"
+  url "https://files.pythonhosted.org/packages/e6/49/c3aa796435746e06b259bd0a3ea92781ab3ae3b061d6e9210d8c94d1ac1f/doccmd-2025.1.11.tar.gz"
+  sha256 "89b3820042543ac401b25d406a9c9a4cf6409263237e1583a21cfbe9575c5bc0"
 
   depends_on "python3"
 
@@ -19,8 +19,8 @@ class Doccmd < Formula
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/8e/62/8336eff65bcbc8e4cb5d05b55faf041285951b6e80f33e2bff2024788f31/pygments-2.18.0.tar.gz"
-    sha256 "786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199"
+    url "https://files.pythonhosted.org/packages/7c/2d/c3338d48ea6cc0feb8446d8e6937e1408088a72a39937982cc6111d17f84/pygments-2.19.1.tar.gz"
+    sha256 "61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f"
   end
 
   resource "sybil" do
@@ -29,8 +29,8 @@ class Doccmd < Formula
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/c4/6f/f1dea018154311a3c898c5508d6c1b500287b28e6cec608cdf5c6b06a4e9/sybil_extras-2024.12.26.tar.gz"
-    sha256 "2fe858c1dac043d27d1d8d830e7fb6266f18dd0dbd859b71b82effb865dbaa4e"
+    url "https://files.pythonhosted.org/packages/0c/25/a4467e637abf0087d52e81b29123f7f43e8c845cd5c35b010607f5212a09/sybil_extras-2025.1.11.tar.gz"
+    sha256 "7ddeb9c367a7f85a9b8dac25e0648697b6bee79cffea007608f9f70620abe8d2"
   end
 
   def install
