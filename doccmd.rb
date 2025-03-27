@@ -9,8 +9,8 @@ class Doccmd < Formula
   depends_on "python3"
 
   resource "beartype" do
-    url "https://files.pythonhosted.org/packages/7d/48/fe1177f4272a1bc344f3371414aa5b76e19c30d7280d711ce90c5335a6f5/beartype-0.20.0.tar.gz"
-    sha256 "599ecc86b88549bcb6d1af626f44d85ffbb9151ace5d7f9f3b493dce2ffee529"
+    url "https://files.pythonhosted.org/packages/8a/99/eaf0847301a6ca2042927c83f8cc72a29c153132ce49d9a720fe121440ba/beartype-0.20.2.tar.gz"
+    sha256 "38c60c065ad99364a8c767e8a0e71ba8263d467b91414ed5dcffb7758a2e8079"
   end
 
   resource "charset-normalizer" do
@@ -34,8 +34,8 @@ class Doccmd < Formula
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/1f/66/e2b0c86d68991230e3cfe09c28856d885cd66b0297dc9e422ed9f744d875/sybil_extras-2025.3.6.tar.gz"
-    sha256 "441622cf90e287fa49a4fc1f15f60dec6fd71ae3268e62e384255901521fb508"
+    url "https://files.pythonhosted.org/packages/13/02/eaa49803299b4cca6c861d0e0fb40b7adfedad7600b01b30e1c1ca8f1f17/sybil_extras-2025.3.27.tar.gz"
+    sha256 "31fc8029643635c0e7ce78883964b0e733e47b57f3acb31aa3fe80b8df3d870e"
   end
 
   def install
