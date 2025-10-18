@@ -3,19 +3,19 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/de/91/300ce8650a6bd1ed99978174aa670dff349147ad45c8a2b2f26ec51b9493/doccmd-2025.9.19.tar.gz"
-  sha256 "5bbf334eec75b467b96e64c3e06cc1d8d7c55a53fd0a75ec6065011a7db8b104"
+  url "https://files.pythonhosted.org/packages/b3/5d/453896d187264d946a6334fe081dd7c5d4943f54efcd2ac21710796e742a/doccmd-2025.10.18.tar.gz"
+  sha256 "8878f17b02679f49da7ab66f1ad2c3df729d0c0e5a85558e180cd1121180e769"
 
   depends_on "python3"
 
   resource "beartype" do
-    url "https://files.pythonhosted.org/packages/0d/f9/21e5a9c731e14f08addd53c71fea2e70794e009de5b98e6a2c3d2f3015d6/beartype-0.21.0.tar.gz"
-    sha256 "f9a5078f5ce87261c2d22851d19b050b64f6a805439e8793aecf01ce660d3244"
+    url "https://files.pythonhosted.org/packages/04/96/43ed27f27127155f24f5cf85df0c27fd2ac2ab67d94cecc8f76933f91679/beartype-0.22.2.tar.gz"
+    sha256 "ff3a7df26af8d15fa87f97934f0f6d41bbdadca971c410819104998dd26013d2"
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/83/2d/5fd176ceb9b2fc619e63405525573493ca23441330fcdaee6bef9460e924/charset_normalizer-3.4.3.tar.gz"
-    sha256 "6fce4b8500244f6fcb71465d4a4930d132ba9ab8e71a7859e6a5d59851068d14"
+    url "https://files.pythonhosted.org/packages/13/69/33ddede1939fdd074bce5434295f38fae7136463422fe4fd3e0e89b98062/charset_normalizer-3.4.4.tar.gz"
+    sha256 "94537985111c35f28720e43603b8e7b43a6ecfb2ce1d3058bbe955b73404e21a"
   end
 
   resource "click" do
