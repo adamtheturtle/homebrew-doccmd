@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/90/87/8115f0f721f271beddad9b8d41a1e9c7d048f31d89c05a1c88a29163f34f/doccmd-2025.11.8.tar.gz"
-  sha256 "0b287bea27da30cf39f2db3ad4f482082927b9ed58c1338acdcb5a181bb098c5"
+  url "https://files.pythonhosted.org/packages/db/ce/1f5de05cfae293170bdee0f188ab6c0fa1a8b37c349936951300a2abe2fa/doccmd-2025.11.20.tar.gz"
+  sha256 "2abcf2f15b1268fa97aca22e97a9a1ab928227a32b2e0ad77c97cfd78d68d0f4"
 
   depends_on "python3"
 
@@ -19,8 +19,8 @@ class Doccmd < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/46/61/de6cd827efad202d7057d93e0fed9294b96952e188f7384832791c7b2254/click-8.3.0.tar.gz"
-    sha256 "e7b8232224eba16f4ebe410c25ced9f7875cb5f3263ffc93cc3e8da705e229c4"
+    url "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz"
+    sha256 "12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a"
   end
 
   resource "click-compose" do
@@ -44,8 +44,8 @@ class Doccmd < Formula
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/05/00/f628b230c50b71dd8c8db6d2143b9c737b0de2c6686c9b8df4d5b9d1127c/sybil_extras-2025.11.8.tar.gz"
-    sha256 "cf7694538e53df32e5877e74c972d741257d27e2b68e2449a508ea6b188dcbe0"
+    url "https://files.pythonhosted.org/packages/c2/a2/f93b904a20acf9eec60c216466ddb91a95ccddb3edd807f4fd2d9799fced/sybil_extras-2025.11.19.tar.gz"
+    sha256 "458b61c141fd0ca5ebb02ad7731a90579d5263f9fe1551ad5f6464e788ab61df"
   end
 
   def install
