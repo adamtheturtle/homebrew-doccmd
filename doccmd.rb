@@ -3,14 +3,14 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/db/ce/1f5de05cfae293170bdee0f188ab6c0fa1a8b37c349936951300a2abe2fa/doccmd-2025.11.20.tar.gz"
-  sha256 "2abcf2f15b1268fa97aca22e97a9a1ab928227a32b2e0ad77c97cfd78d68d0f4"
+  url "https://files.pythonhosted.org/packages/17/3a/98e94e5417dbb19e71a93be394905a6f53c0e41e0179a58035a1dd496ea0/doccmd-2025.12.3.tar.gz"
+  sha256 "a1783a02e5c8e895a2d06295551579b839203442c3cb3972f41339d7b408ade4"
 
   depends_on "python3"
 
   resource "beartype" do
-    url "https://files.pythonhosted.org/packages/a6/09/9003e5662691056e0e8b2e6f57c799e71875fac0be0e785d8cb11557cd2a/beartype-0.22.5.tar.gz"
-    sha256 "516a9096cc77103c96153474fa35c3ebcd9d36bd2ec8d0e3a43307ced0fa6341"
+    url "https://files.pythonhosted.org/packages/8c/1d/794ae2acaa67c8b216d91d5919da2606c2bb14086849ffde7f5555f3a3a5/beartype-0.22.8.tar.gz"
+    sha256 "b19b21c9359722ee3f7cc433f063b3e13997b27ae8226551ea5062e621f61165"
   end
 
   resource "charset-normalizer" do
@@ -39,8 +39,8 @@ class Doccmd < Formula
   end
 
   resource "sybil" do
-    url "https://files.pythonhosted.org/packages/fe/01/cd109cc45ad8be87a3338ebb2d0e9f4a46a635952a7cf25f1f30fd13a794/sybil-9.2.0.tar.gz"
-    sha256 "a7cbccf4b06af7e946a218e23fd59fde36738e91eb698b15619a4d5f97b176bb"
+    url "https://files.pythonhosted.org/packages/c6/46/bae21847b8d761ddd6ede1811d32818342dbd482c32a2a5805c28d9b2f18/sybil-9.3.0.tar.gz"
+    sha256 "847d1d17b8a857c4bb3f8471b4a57b8affa939a60fbf507e70aa72ad79097c05"
   end
 
   resource "sybil-extras" do
