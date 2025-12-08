@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/cd/fa/b0a4cedb11f20135aac835bb8c906fa431eac7fe73a3aee939635b779fdf/doccmd-2025.12.7.tar.gz"
-  sha256 "e0178e2815d49659bc750c7bb81fa981aca9c83609c4ab1094a23bc6f2b25220"
+  url "https://files.pythonhosted.org/packages/e6/54/c1c266b7a218e7f879926f254b65238e7a7faebe923e9a0a9842db21d269/doccmd-2025.12.8.tar.gz"
+  sha256 "f23aeb06b4319a144adaf5697f24c3d9b41ac299a9b6a331380509f38cf2bca1"
 
   depends_on "python3"
 
