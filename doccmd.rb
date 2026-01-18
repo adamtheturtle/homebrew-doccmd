@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/67/0d/cb00313f346d43302d89b4807eaf077638815fff655bbc6877b8ed7f101d/doccmd-2026.1.12.tar.gz"
-  sha256 "16ff3a9d5d3ff844702267a6320b3b2759202f73559817188c2b281f2fa0f8a8"
+  url "https://files.pythonhosted.org/packages/c8/d2/96ad61ff6e3d86aa3e5ed241a02058d0316882f0542d8b6c9baf00bb84a0/doccmd-2026.1.18.tar.gz"
+  sha256 "76d762ae2c1c61c969dc18e9677e338e27864e5bb72498312b66fd4899c1de34"
 
   depends_on "python3"
 
@@ -33,6 +33,16 @@ class Doccmd < Formula
     sha256 "f91c080a725196ddf74feabd6250266f466e97fc16dfe21a762cf6bc6beb3ecb"
   end
 
+  resource "markdown-it-py" do
+    url "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz"
+    sha256 "cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3"
+  end
+
+  resource "mdurl" do
+    url "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz"
+    sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
+  end
+
   resource "Pygments" do
     url "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz"
     sha256 "636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"
@@ -44,8 +54,8 @@ class Doccmd < Formula
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/62/43/c028ed1946df089ab4263b3412d9197304c5c8cd4892d3234775a3f41983/sybil_extras-2026.1.12.tar.gz"
-    sha256 "3b1b6220b5f04a5f4fe5a0a8be37719fb6ed6b8a57ac78b58658288beb65c886"
+    url "https://files.pythonhosted.org/packages/79/b8/dff7b614d6908d9a928a722c267e073012d179546110704f98b8dd7781a0/sybil_extras-2026.1.13.tar.gz"
+    sha256 "6f0dc0e1296ce6fe59f5aac08c8d41426430b393db8d8453c7822f1e2421b24a"
   end
 
   def install
