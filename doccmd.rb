@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/5d/1f/bbf9d625eea41b63855a268a3aad27fcdfb5f7c2d1ea424705a50ac8a321/doccmd-2026.1.27.1.tar.gz"
-  sha256 "9f68f3db3c560898e1e741e582edbb50e24f43f9d1dc6a2ad89db91435777801"
+  url "https://files.pythonhosted.org/packages/a7/e5/f1e58a1e0238a20c16e5400b5135a8814a94439a058e80b5d0433d5bf696/doccmd-2026.1.27.2.tar.gz"
+  sha256 "cd765339562a401a7c361f285b9d5e7fa10a29a5d89f84d9c8916c2bcefbb4d1"
 
   depends_on "python3"
 
@@ -54,8 +54,8 @@ class Doccmd < Formula
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/b0/7b/972027f1594400d9671c3b26eb38ef41fefe114efda1579f99240a063072/sybil_extras-2026.1.22.tar.gz"
-    sha256 "d063567d694946ad1e093dd96a6c512bf80d04f46e9a747080dcb043c2128c5d"
+    url "https://files.pythonhosted.org/packages/7e/87/ba3d507fea762f21e4b68872ca6cb8ac5fc01cd2ad75a2005ad262e87230/sybil_extras-2026.1.27.tar.gz"
+    sha256 "4a35fd703c6c2459686183899672f8c0e9c5f5d6b42b1046c66c788fc3086d8c"
   end
 
   def install
