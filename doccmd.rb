@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/55/2a/0eec3913e66baca3bce41547629112f53f25606923edaaadeac1a9853303/doccmd-2026.1.27.3.tar.gz"
-  sha256 "7fe5e8e4d19b6e35b1c640eb6f4edfba56e08b964a31cf8ac4ec860aa19f1e05"
+  url "https://files.pythonhosted.org/packages/a3/14/c82772921c05a7c9253f47e8740fe208d63c35a05095cba41e43a1fad12b/doccmd-2026.1.27.4.tar.gz"
+  sha256 "6eeb9229803a98880a7fec66418c6a3dc4ba9c13dcf1a273130e516ea68e2540"
 
   depends_on "python3"
 
@@ -33,6 +33,11 @@ class Doccmd < Formula
     sha256 "f91c080a725196ddf74feabd6250266f466e97fc16dfe21a762cf6bc6beb3ecb"
   end
 
+  resource "dulwich" do
+    url "https://files.pythonhosted.org/packages/ee/df/4178b6465e118e6e74fd78774b451953dd53c09fdec18f2c4b3319dd0485/dulwich-1.0.0.tar.gz"
+    sha256 "3d07104735525f22bfec35514ac611cf328c89b7acb059316a4f6e583c8f09bc"
+  end
+
   resource "markdown-it-py" do
     url "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz"
     sha256 "cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3"
@@ -56,6 +61,11 @@ class Doccmd < Formula
   resource "sybil-extras" do
     url "https://files.pythonhosted.org/packages/7e/87/ba3d507fea762f21e4b68872ca6cb8ac5fc01cd2ad75a2005ad262e87230/sybil_extras-2026.1.27.tar.gz"
     sha256 "4a35fd703c6c2459686183899672f8c0e9c5f5d6b42b1046c66c788fc3086d8c"
+  end
+
+  resource "urllib3" do
+    url "https://files.pythonhosted.org/packages/c7/24/5f1b3bdffd70275f6661c76461e25f024d5a38a46f04aaca912426a2b1d3/urllib3-2.6.3.tar.gz"
+    sha256 "1b62b6884944a57dbe321509ab94fd4d3b307075e0c2eae991ac71ee15ad38ed"
   end
 
   def install
