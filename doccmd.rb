@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/60/62/3729aa84b758f979bbfb3c67d6494aae5bca9eb45adcc9f14b0a401c0118/doccmd-2026.3.1.tar.gz"
-  sha256 "ec93d9ba3f5c0197645be0799a4ca999111fdf0b791d9a7a8a8223ec5a4949ae"
+  url "https://files.pythonhosted.org/packages/46/98/8a95e18c9bfdd3c5ec1a95886dae6ca5663ca9e2d3d1601bde6a892c7720/doccmd-2026.3.26.tar.gz"
+  sha256 "3ab5848f44cbb6be193ee1bb733f7708909ae24902d81e4c7eaf7d094bec5d2f"
 
   depends_on "python3"
 
@@ -29,8 +29,8 @@ class Doccmd < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/13/69/33ddede1939fdd074bce5434295f38fae7136463422fe4fd3e0e89b98062/charset_normalizer-3.4.4.tar.gz"
-    sha256 "94537985111c35f28720e43603b8e7b43a6ecfb2ce1d3058bbe955b73404e21a"
+    url "https://files.pythonhosted.org/packages/7b/60/e3bec1881450851b087e301bedc3daa9377a4d45f1c26aa90b0b235e38aa/charset_normalizer-3.4.6.tar.gz"
+    sha256 "1ae6b62897110aa7c79ea2f5dd38d1abca6db663687c0b1ad9aed6f6bae3d9d6"
   end
 
   resource "click" do
@@ -164,8 +164,8 @@ class Doccmd < Formula
   end
 
   resource "sybil" do
-    url "https://files.pythonhosted.org/packages/c6/46/bae21847b8d761ddd6ede1811d32818342dbd482c32a2a5805c28d9b2f18/sybil-9.3.0.tar.gz"
-    sha256 "847d1d17b8a857c4bb3f8471b4a57b8affa939a60fbf507e70aa72ad79097c05"
+    url "https://files.pythonhosted.org/packages/35/aa/7c546894cd0ae2a9848e2c2f9b42d5c2a8f232f6cdd6968ad7b6752d95fc/sybil-10.0.0.tar.gz"
+    sha256 "442c14a85a897c17c2d72db00fa8ea49cee6d89aa1150677c1d34a028b4f3e23"
   end
 
   resource "sybil-extras" do
