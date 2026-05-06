@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/69/06/ac4b1bae4f851b2b54f46e1f7c12495ba1cc8748960d78eba9eaedad867f/doccmd-2026.3.26.1.tar.gz"
-  sha256 "8893efec1d161ec6ad4686b50a51b1c7b6d45410958c4f72ef977a00d69c09fd"
+  url "https://files.pythonhosted.org/packages/72/1b/dd523bca9af060e7edb31c071ee0fff6508d1427483090da795a69a4649a/doccmd-2026.5.6.tar.gz"
+  sha256 "308a8f5cf68589cc428c31b4ec399df6710f5e7a512f0ead16bc8c9748dc22c3"
 
   depends_on "python3"
 
@@ -29,13 +29,13 @@ class Doccmd < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/7b/60/e3bec1881450851b087e301bedc3daa9377a4d45f1c26aa90b0b235e38aa/charset_normalizer-3.4.6.tar.gz"
-    sha256 "1ae6b62897110aa7c79ea2f5dd38d1abca6db663687c0b1ad9aed6f6bae3d9d6"
+    url "https://files.pythonhosted.org/packages/e7/a1/67fe25fac3c7642725500a3f6cfe5821ad557c3abb11c9d20d12c7008d3e/charset_normalizer-3.4.7.tar.gz"
+    sha256 "ae89db9e5f98a11a4bf50407d4363e7b09b31e55bc117b4f7d80aab97ba009e5"
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/3d/fa/656b739db8587d7b5dfa22e22ed02566950fbfbcdc20311993483657a5c0/click-8.3.1.tar.gz"
-    sha256 "12ff4785d337a1bb490bb7e9c2b1ee5da3112e94a8622f26a6c77f5d2fc6842a"
+    url "https://files.pythonhosted.org/packages/bb/63/f9e1ea081ce35720d8b92acde70daaedace594dc93b693c869e0d5910718/click-8.3.3.tar.gz"
+    sha256 "398329ad4837b2ff7cbe1dd166a4c0f8900c3ca3a218de04466f38f6497f18a2"
   end
 
   resource "click-compose" do
@@ -44,8 +44,8 @@ class Doccmd < Formula
   end
 
   resource "cloup" do
-    url "https://files.pythonhosted.org/packages/46/cf/09a31f0f51b5c8ef2343baf37c35a5feb4f6dfdcbd0592a014baf837f2e4/cloup-3.0.8.tar.gz"
-    sha256 "f91c080a725196ddf74feabd6250266f466e97fc16dfe21a762cf6bc6beb3ecb"
+    url "https://files.pythonhosted.org/packages/f9/64/7f0a66021ff81d51859c66adc13f3c71f0306c2f8dfb9877a0694cbada05/cloup-3.0.9.tar.gz"
+    sha256 "519f524d3c64040e49a0866b5fc0bfd6af3eac0d3d6a4b2b50b33ab0247db2d7"
   end
 
   resource "docutils" do
@@ -54,8 +54,8 @@ class Doccmd < Formula
   end
 
   resource "dulwich" do
-    url "https://files.pythonhosted.org/packages/02/c4/bfe2a4e5b203f87ea925339691dd6e379e1a80d805dff0502e496bcaec39/dulwich-1.1.0.tar.gz"
-    sha256 "9aa855db9fee0a7065ae9ffb38e14e353876d82f17e33e1a1fb3830eb8d0cf43"
+    url "https://files.pythonhosted.org/packages/72/0f/46df53e30b03cc8fee9d1bbd7ca624b4d1b579ce2e4efeaa1cb712d119b0/dulwich-1.2.1.tar.gz"
+    sha256 "ba43bfb3a7cad40d9607170561e8c3be42e7083b4b57af89a5f54e01577ff791"
   end
 
   resource "idna" do
@@ -104,8 +104,8 @@ class Doccmd < Formula
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz"
-    sha256 "636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"
+    url "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz"
+    sha256 "6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f"
   end
 
   resource "PyYAML" do
@@ -164,13 +164,13 @@ class Doccmd < Formula
   end
 
   resource "sybil" do
-    url "https://files.pythonhosted.org/packages/35/aa/7c546894cd0ae2a9848e2c2f9b42d5c2a8f232f6cdd6968ad7b6752d95fc/sybil-10.0.0.tar.gz"
-    sha256 "442c14a85a897c17c2d72db00fa8ea49cee6d89aa1150677c1d34a028b4f3e23"
+    url "https://files.pythonhosted.org/packages/de/2b/5ee5ef413b87f215c03cd08462dc341903b86707e517e20715823c984893/sybil-10.0.1.tar.gz"
+    sha256 "319eed013ebe848f8c57ce79c1ed526e506d952c778693979bc509513ae72a68"
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/a3/af/e3ea947a4710016bc83482f69552c7ba962033dc25a2062af26b8c824b44/sybil_extras-2026.3.1.6.tar.gz"
-    sha256 "88a2518a273d5ae6f25bf4dcaaa8f35a7b8db0aa92403fcd8f005e51573d4a63"
+    url "https://files.pythonhosted.org/packages/a7/e6/d68a5a217d1d0564c321f670cec067de9716a84ed55848105708ac09be12/sybil_extras-2026.5.6.tar.gz"
+    sha256 "3476acd4adbcf7c2c7990c10ad5bd88b62e87348db856faafcb6b2e232743cb1"
   end
 
   resource "urllib3" do
