@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url ""
-  sha256 ""
+  url "https://files.pythonhosted.org/packages/15/e5/567d5a5cf549de53b66b296a4330c7b3728790e37942a5e1adb171d4c12d/doccmd-2026.5.16.tar.gz"
+  sha256 "85a9fc3f8b016a7818f0d05e93900f1c44ebfef418cd559f2aec3e0437925615"
 
   depends_on "python3"
 
@@ -34,8 +34,8 @@ class Doccmd < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/bb/63/f9e1ea081ce35720d8b92acde70daaedace594dc93b693c869e0d5910718/click-8.3.3.tar.gz"
-    sha256 "398329ad4837b2ff7cbe1dd166a4c0f8900c3ca3a218de04466f38f6497f18a2"
+    url "https://files.pythonhosted.org/packages/23/e4/796662cd90cf80e3a363c99db2b88e0e394b988a575f60a17e16440cd011/click-8.4.0.tar.gz"
+    sha256 "638f1338fe1235c8f4e008e4a8a254fb5c5fbdcbb40ece3c9142ebb78e792973"
   end
 
   resource "click-compose" do
