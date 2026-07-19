@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/01/72/cc62f14a3dc6f1151f9ac64e657dc36674e6d297be630775f6b51ffcfe47/doccmd-2026.5.19.tar.gz"
-  sha256 "3ba7f324fa329744109677737814233b9fde666e25929f24bf321a582162f2e7"
+  url "https://files.pythonhosted.org/packages/6d/6e/1a1c30b66d9dd37d1d12e248943a8723da79b5c7d945bba5c0e469252433/doccmd-2026.7.19.tar.gz"
+  sha256 "1bb47f9ba5a3aaa907a5b52cd42f62d718689eccef68b94740127f7b758ce573"
 
   depends_on "python3"
 
@@ -29,13 +29,13 @@ class Doccmd < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/e7/a1/67fe25fac3c7642725500a3f6cfe5821ad557c3abb11c9d20d12c7008d3e/charset_normalizer-3.4.7.tar.gz"
-    sha256 "ae89db9e5f98a11a4bf50407d4363e7b09b31e55bc117b4f7d80aab97ba009e5"
+    url "https://files.pythonhosted.org/packages/bd/2a/23f34ec9d04624958e137efdc394888716353190e75f25dd22c7a2c7a8aa/charset_normalizer-3.4.9.tar.gz"
+    sha256 "673611bbd43f0810bec0b0f028ddeaaa501190339cac411f347ac76917c3ae7b"
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/9b/98/518d8e5081007684232226f475082b30087d0f585e8457db087298259f49/click-8.4.1.tar.gz"
-    sha256 "918b5633eddf6b41c32d4f454bf0de810065c74e3f7dbf8ee5452f8be88d3e96"
+    url "https://files.pythonhosted.org/packages/76/d4/81420972a676e8ffea40450d8c8c92943e7218a78fe9b64359836cc9876b/click-8.4.2.tar.gz"
+    sha256 "9a6cea6e60b17ebe0a44c5cc636d94f09bd66142c1cd7d8b4cd731c4917a15f6"
   end
 
   resource "click-compose" do
@@ -44,8 +44,8 @@ class Doccmd < Formula
   end
 
   resource "cloup" do
-    url "https://files.pythonhosted.org/packages/f9/64/7f0a66021ff81d51859c66adc13f3c71f0306c2f8dfb9877a0694cbada05/cloup-3.0.9.tar.gz"
-    sha256 "519f524d3c64040e49a0866b5fc0bfd6af3eac0d3d6a4b2b50b33ab0247db2d7"
+    url "https://files.pythonhosted.org/packages/42/ca/cf02e965cfeb70d65c61fd3abb8022aaf5111a0de71b3c73a6ec2113aa25/cloup-3.1.0.tar.gz"
+    sha256 "637c1e628fe98f3f20a5e44da591a72b42bf54d7d4527190bf39ed5f64af7585"
   end
 
   resource "docutils" do
@@ -54,8 +54,8 @@ class Doccmd < Formula
   end
 
   resource "dulwich" do
-    url "https://files.pythonhosted.org/packages/43/67/db7dfe7bd7a585e39c938f5f79ccb91235df5f8818f9273590ed6d0f9fdf/dulwich-1.2.4.tar.gz"
-    sha256 "72fc77c4e2c7e4358a78c6f71383baceea496ee0cedb13508f52a1a7656e8bb9"
+    url "https://files.pythonhosted.org/packages/b4/bc/70bac5c71214fad2f297c97228d3ca82f2d0a5095f76c3875854957d4554/dulwich-1.2.11.tar.gz"
+    sha256 "771bb2128045477c9332f71ed3fd4498c4a455e90ff76198d92cbc09218773a3"
   end
 
   resource "idna" do
@@ -164,13 +164,13 @@ class Doccmd < Formula
   end
 
   resource "sybil" do
-    url "https://files.pythonhosted.org/packages/de/2b/5ee5ef413b87f215c03cd08462dc341903b86707e517e20715823c984893/sybil-10.0.1.tar.gz"
-    sha256 "319eed013ebe848f8c57ce79c1ed526e506d952c778693979bc509513ae72a68"
+    url "https://files.pythonhosted.org/packages/1c/03/50135b55ba14509654b2f624eaf7e318d654182ebe9f712fb74e98e418d0/sybil-10.1.0.tar.gz"
+    sha256 "062249c8886a0ab19e45d1c3afd5631ec806e7a95cf5153c96560f5e47756cbd"
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/5b/7e/fe6068c73d54469ee10a9f9ee0bdca9d188e745c1e2416dff213a11273ff/sybil_extras-2026.5.25.tar.gz"
-    sha256 "6d96ed90170bd36329b7e4463eb609a500beae4b95bb90b0aade789b893baf25"
+    url "https://files.pythonhosted.org/packages/96/3c/27b1055b5afb809f055c68ba5858a4a498757f54f90827e16918ce53f39d/sybil_extras-2026.7.19.tar.gz"
+    sha256 "4ee756a2da38287a957bde7edbf295951cdd65407ca4344a1726dfff3c1d64ba"
   end
 
   resource "urllib3" do
