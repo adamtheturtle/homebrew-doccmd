@@ -54,8 +54,8 @@ class Doccmd < Formula
   end
 
   resource "dulwich" do
-    url "https://files.pythonhosted.org/packages/b4/bc/70bac5c71214fad2f297c97228d3ca82f2d0a5095f76c3875854957d4554/dulwich-1.2.11.tar.gz"
-    sha256 "771bb2128045477c9332f71ed3fd4498c4a455e90ff76198d92cbc09218773a3"
+    url "https://files.pythonhosted.org/packages/e5/73/e0ac42b16e180189e8426af41b1f29b079096088e1253d03322259945911/dulwich-1.2.12.tar.gz"
+    sha256 "1278d8ddb0a92fa4bc9f2e9b14edf0a2e140248bccc4c7c9752a1390e2ab4c64"
   end
 
   resource "idna" do
