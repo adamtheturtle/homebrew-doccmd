@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/6d/6e/1a1c30b66d9dd37d1d12e248943a8723da79b5c7d945bba5c0e469252433/doccmd-2026.7.19.tar.gz"
-  sha256 "1bb47f9ba5a3aaa907a5b52cd42f62d718689eccef68b94740127f7b758ce573"
+  url "https://files.pythonhosted.org/packages/47/f2/6f97747e1f43c1156ce6a950e759ce686767d2f835f070a29fefc3574fb2/doccmd-2026.8.30.tar.gz"
+  sha256 "f894c63ea02f5fa098e6811ac835df39474dec581b33b86655cc38a21da379ab"
 
   depends_on "python3"
 
@@ -29,8 +29,8 @@ class Doccmd < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/bd/2a/23f34ec9d04624958e137efdc394888716353190e75f25dd22c7a2c7a8aa/charset_normalizer-3.4.9.tar.gz"
-    sha256 "673611bbd43f0810bec0b0f028ddeaaa501190339cac411f347ac76917c3ae7b"
+    url "https://files.pythonhosted.org/packages/e5/3f/143b048436775b0f76ac3eec145c019e8173ccc2885c8f20319b996d5e83/charset_normalizer-3.5.1.tar.gz"
+    sha256 "6117b84ea48435e5356dc737f5121485c30920ba43375fa7b434fd753df0eac3"
   end
 
   resource "click" do
@@ -54,8 +54,8 @@ class Doccmd < Formula
   end
 
   resource "dulwich" do
-    url "https://files.pythonhosted.org/packages/e5/73/e0ac42b16e180189e8426af41b1f29b079096088e1253d03322259945911/dulwich-1.2.12.tar.gz"
-    sha256 "1278d8ddb0a92fa4bc9f2e9b14edf0a2e140248bccc4c7c9752a1390e2ab4c64"
+    url "https://files.pythonhosted.org/packages/ab/7d/022515919b5ee3175a70a7e52049c4a2637008a4a49024ad15db1531bda9/dulwich-1.2.13.tar.gz"
+    sha256 "77f0d7012710da1ba0742a197fce215b0e1a05aeb9bc8a03ce94ccd2644317d8"
   end
 
   resource "idna" do
@@ -104,8 +104,8 @@ class Doccmd < Formula
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz"
-    sha256 "6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f"
+    url "https://files.pythonhosted.org/packages/49/2e/ced460408999b33da6b31b0021b0f37d329e202d4169aeb164493778f25b/pygments-2.21.0.tar.gz"
+    sha256 "610ca751c9bc2492b38eb9a38a7fbc93edbbb2d7182edaf34e66ae493dee5c8c"
   end
 
   resource "PyYAML" do
@@ -169,8 +169,8 @@ class Doccmd < Formula
   end
 
   resource "sybil-extras" do
-    url "https://files.pythonhosted.org/packages/96/3c/27b1055b5afb809f055c68ba5858a4a498757f54f90827e16918ce53f39d/sybil_extras-2026.7.19.tar.gz"
-    sha256 "4ee756a2da38287a957bde7edbf295951cdd65407ca4344a1726dfff3c1d64ba"
+    url "https://files.pythonhosted.org/packages/af/15/2a3b048a6d12e03641b5ce5df69eac13aa3b579542354adca78c0db66480/sybil_extras-2026.8.16.tar.gz"
+    sha256 "79c8dda5d2261b93d7885edbdfb534a0b6ebf3c4f8c8a53d400734a556fd402d"
   end
 
   resource "urllib3" do
