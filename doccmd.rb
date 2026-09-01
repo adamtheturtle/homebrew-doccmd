@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/47/f2/6f97747e1f43c1156ce6a950e759ce686767d2f835f070a29fefc3574fb2/doccmd-2026.8.30.tar.gz"
-  sha256 "f894c63ea02f5fa098e6811ac835df39474dec581b33b86655cc38a21da379ab"
+  url "https://files.pythonhosted.org/packages/f2/c0/7545fc5f023d7973cca8b59583e83a2f81e736be44cba0f25a36e535f929/doccmd-2026.9.1.tar.gz"
+  sha256 "2fb30f4a59b0881dfa43257c4d2aad3d9fa09c6f4403b5aa70b5cf7910adf81e"
 
   depends_on "python3"
 
@@ -34,8 +34,8 @@ class Doccmd < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/76/d4/81420972a676e8ffea40450d8c8c92943e7218a78fe9b64359836cc9876b/click-8.4.2.tar.gz"
-    sha256 "9a6cea6e60b17ebe0a44c5cc636d94f09bd66142c1cd7d8b4cd731c4917a15f6"
+    url "https://files.pythonhosted.org/packages/c7/0e/7fa0ef50764b67090eca4114772a2abf8b6148198475e54c660b97caeee6/click-8.5.0.tar.gz"
+    sha256 "ba0d2089de75ea0310e2dde03160e6ca10009947fb95a182f9b54021bb272e34"
   end
 
   resource "click-compose" do
@@ -54,8 +54,8 @@ class Doccmd < Formula
   end
 
   resource "dulwich" do
-    url "https://files.pythonhosted.org/packages/ab/7d/022515919b5ee3175a70a7e52049c4a2637008a4a49024ad15db1531bda9/dulwich-1.2.13.tar.gz"
-    sha256 "77f0d7012710da1ba0742a197fce215b0e1a05aeb9bc8a03ce94ccd2644317d8"
+    url "https://files.pythonhosted.org/packages/0d/7b/d03c166f6098314824bdd2e661a32563c0ebe8c5e3344ed212d2ffc96a10/dulwich-1.2.14.tar.gz"
+    sha256 "ed8bfcfe1c7e187d1bc5e78f7c128a07d229d7b425433b04cbb89334678bd3b1"
   end
 
   resource "idna" do
