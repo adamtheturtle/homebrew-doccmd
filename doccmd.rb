@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/7f/ba/c7ab8fe1fa58faa931cca8644ad730aca853ae030260f9199265ac46d381/doccmd-2026.9.7.tar.gz"
-  sha256 "bfa74bf5962eed2d58fdbc7cf8fbc94d2aef9024ba5b3a4213f1cb9a3038ab59"
+  url "https://files.pythonhosted.org/packages/16/4e/337f63a0cbaded4ef8ebba9444bd3c5ef61423186f750252d20e0e2db88c/doccmd-2026.9.16.tar.gz"
+  sha256 "c58427a53928a8662cf6ae94ecc24571c8735fad263f429de042106765db84c7"
 
   depends_on "python3"
 
@@ -39,13 +39,13 @@ class Doccmd < Formula
   end
 
   resource "click-compose" do
-    url "https://files.pythonhosted.org/packages/45/9f/7b380e5318643348e256ec31df1362b74dfa12733f76b1a97e1171ba74fe/click_compose-2025.10.27.3.tar.gz"
-    sha256 "6d3326a13b690ac7a0f0e99de785aa78ea81d130ba02d609e6367a7af23477a5"
+    url "https://files.pythonhosted.org/packages/e1/64/a665f6fe6c2e8fd6e2e59fd4169bc98c95851375e4d8894f3af3f95b0272/click_compose-2026.9.16.tar.gz"
+    sha256 "26dc10490e8757bf70a74f3a9401f2df1da4e9592b4040341e719f6fa1861318"
   end
 
   resource "cloup" do
-    url "https://files.pythonhosted.org/packages/42/ca/cf02e965cfeb70d65c61fd3abb8022aaf5111a0de71b3c73a6ec2113aa25/cloup-3.1.0.tar.gz"
-    sha256 "637c1e628fe98f3f20a5e44da591a72b42bf54d7d4527190bf39ed5f64af7585"
+    url "https://files.pythonhosted.org/packages/05/e2/d41446c6195eff0db3b671ddb202e39f42f9ea7c0dd15cd43fbf5cf0d7f7/cloup-4.0.0.tar.gz"
+    sha256 "83b0870ee863bcc85129e40e1b208bcfdebe4cd2142e9ce1d0daf7d276cab038"
   end
 
   resource "docutils" do
@@ -171,6 +171,11 @@ class Doccmd < Formula
   resource "sybil-extras" do
     url "https://files.pythonhosted.org/packages/af/15/2a3b048a6d12e03641b5ce5df69eac13aa3b579542354adca78c0db66480/sybil_extras-2026.8.16.tar.gz"
     sha256 "79c8dda5d2261b93d7885edbdfb534a0b6ebf3c4f8c8a53d400734a556fd402d"
+  end
+
+  resource "typing-extensions" do
+    url "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz"
+    sha256 "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"
   end
 
   resource "urllib3" do
