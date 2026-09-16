@@ -3,8 +3,8 @@ class Doccmd < Formula
 
   desc "Run tools against code blocks in documentation"
   homepage "None"
-  url "https://files.pythonhosted.org/packages/16/4e/337f63a0cbaded4ef8ebba9444bd3c5ef61423186f750252d20e0e2db88c/doccmd-2026.9.16.tar.gz"
-  sha256 "c58427a53928a8662cf6ae94ecc24571c8735fad263f429de042106765db84c7"
+  url "https://files.pythonhosted.org/packages/19/fb/eccce72fadfb1893246d03ce1fea41f002dd6febeaae700dbafbaa8adbf6/doccmd-2026.9.16.1.tar.gz"
+  sha256 "210cdfa64ce1eeae0cb1d2ec9673d0259ce6decdd9dfd4ee11e075f27a0f1209"
 
   depends_on "python3"
 
@@ -39,8 +39,8 @@ class Doccmd < Formula
   end
 
   resource "click-compose" do
-    url "https://files.pythonhosted.org/packages/e1/64/a665f6fe6c2e8fd6e2e59fd4169bc98c95851375e4d8894f3af3f95b0272/click_compose-2026.9.16.tar.gz"
-    sha256 "26dc10490e8757bf70a74f3a9401f2df1da4e9592b4040341e719f6fa1861318"
+    url "https://files.pythonhosted.org/packages/4b/d2/e20f646d494df34e6c8fe5f13480910158cea85d414322f6823c4d9c8cce/click_compose-2026.9.16.1.tar.gz"
+    sha256 "b1416164b558f4e3fbf40b3684c64559bbad708b69303910f4f605d0efc08e45"
   end
 
   resource "cloup" do
